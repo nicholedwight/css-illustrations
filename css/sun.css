@@ -282,3 +282,53 @@ html, body {
             transform: translate3d(0, 0, 0);
   }
 }
+
+.tree {
+  height: 150px;
+  width: 30px;
+  position: relative;
+  background: #402303;
+  margin: 200px 0 0 800px;
+}
+
+.tree i {
+  position: absolute;
+  border-radius: 50%;
+  background: #2ecc71;
+  height: 80px;
+  width: 80px;
+}
+
+.tree i:nth-child(1) {
+  width: 65px;
+  height: 47px;
+  top: -20%;
+}
+
+.tree i:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  top: -11px;
+  left: -103%;
+}
+
+.tree i:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  top: -11px;
+  left: 45%;
+}
+
+.tree i:nth-child(4) {
+  width: 40px;
+  height: 40px;
+  top: -30px;
+  left: -59%;
+}
+
+.tree i:nth-child(5) {
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: -11%;
+}
