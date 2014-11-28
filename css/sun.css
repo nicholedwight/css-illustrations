@@ -36,18 +36,18 @@ html, body {
   width: 47px;
   height: 47px;
   top: 12%;
-  -webkit-animation-duration: 0.56s;
-  -moz-animation-duration: 0.56s;
-  animation-duration: 0.56s;
+  -webkit-animation-duration: 1.26s;
+  -moz-animation-duration: 1.26s;
+  animation-duration: 1.26s;
 }
 
 .cloud i:nth-child(2) {
   width: 56px;
   height: 56px;
   left: 23%;
-  -webkit-animation-duration: 0.77s;
-  -moz-animation-duration: 0.77s;
-  animation-duration: 0.77s;
+  -webkit-animation-duration: 1.67s;
+  -moz-animation-duration: 1.67s;
+  animation-duration: 1.67s;
 }
 
 .cloud i:nth-child(3) {
@@ -55,9 +55,9 @@ html, body {
   height: 54px;
   top: 14%;
   right: 18%;
-  -webkit-animation-duration: 0.63s;
-  -moz-animation-duration: 0.63s;
-  animation-duration: 0.63s;
+  -webkit-animation-duration: 1.43s;
+  -moz-animation-duration: 1.43s;
+  animation-duration: 1.43s;
 }
 
 .cloud i:nth-child(4) {
@@ -65,9 +65,9 @@ html, body {
   height: 20px;
   bottom: 31%;
   left: 29%;
-  -webkit-animation-duration: 0.42s;
-  -moz-animation-duration: 0.42s;
-  animation-duration: 0.42s;
+  -webkit-animation-duration: 1.22s;
+  -moz-animation-duration: 1.22s;
+  animation-duration: 1.22s;
 }
 
 .cloud i:nth-child(5) {
@@ -75,6 +75,9 @@ html, body {
   height: 29px;
   top: 0;
   left: 10%;
+  -webkit-animation-duration: 1.22s;
+  -moz-animation-duration: 1.22s;
+  animation-duration: 1.22s;
 }
 
 @-webkit-keyframes rotate {
