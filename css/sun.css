@@ -125,8 +125,6 @@ html, body {
   width: 150px;
   height: 150px;
   margin: -75px 0 0 -75px;
-  border-bottom: 3px solid #815a05;
-  overflow: hidden;
 }
 
 .sun {
