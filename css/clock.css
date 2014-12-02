@@ -29,7 +29,7 @@ body {
 }
 
 .active {
-    color: #fff;
+    color: #00CD9B;
     font-weight: 700;
-    text-shadow: 0 0 12px #FFF;
+    text-shadow: 0 0 12px #00CD9B;
 }
