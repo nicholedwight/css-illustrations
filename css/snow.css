@@ -12,6 +12,21 @@ body {
           animation: snow 10s linear infinite;
 }
 
+.foreground {
+  opacity: 1;
+  z-index: 300;
+}
+
+.middleground {
+  opacity: 0.5;
+  z-index: 200;
+}
+
+.background {
+  opacity: 0.3;
+  z-index: 100;
+}
+
 .snowflake i {
   position: absolute;
   background: #FFF;
