@@ -1,5 +1,14 @@
 body {
+  width: 100%;
+  height: 100%;
   background: #D11111;
+}
+
+.snowflakes {
+  position: relative;
+  width: 100%;
+  -webkit-animation: snowflakes 6.5s linear infinite;
+          animation: snowflakes 6.5s linear infinite;
 }
 
 .snowflake {
@@ -7,29 +16,29 @@ body {
   width: 100px;
   position: relative;
   margin: 0 0 0 220px;
-  -webkit-animation: snow 6.5s linear infinite;
-          animation: snow 6.5s linear infinite;
+  -webkit-animation: snow 3.1s 0.2s ease-in-out infinite;
+          animation: snow 3.1s 0.2s ease-in-out infinite;
 }
 
 .x1 {
   position: relative;
   margin-left: 40%;
-  -webkit-animation: snow 10s linear infinite;
-          animation: snow 10s linear infinite;
+  -webkit-animation: snow 5.1s 0.2s ease-in-out infinite;
+          animation: snow 5.1s 0.2s ease-in-out infinite;
 }
 
 .x2 {
   position: relative;
   margin-left: 60%;
-  -webkit-animation: snow 9s linear infinite;
-          animation: snow 9s linear infinite;
+  -webkit-animation: snow 4s 0.2s ease-in-out infinite;
+          animation: snow 4s 0.2s ease-in-out infinite;
 }
 
 .x3 {
   position: relative;
   margin-left: 80%;
-  -webkit-animation: snow 11s linear infinite;
-          animation: snow 11s linear infinite;
+  -webkit-animation: snow 7s 0.2s ease-in-out infinite;
+          animation: snow 7s 0.2s ease-in-out infinite;
 }
 
 .snowflake i {
@@ -236,23 +245,78 @@ body {
 }
 
 @-webkit-keyframes snow {
-  0% {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
+ 0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  75% {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
   }
   100% {
-    -webkit-transform: translate3d(5%, 600%, 0);
-            transform: translate3d(5%, 600%, 0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes snow {
-  0% {
-    -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
+   0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  50% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  75% {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
   }
   100% {
-    -webkit-transform: translate3d(5%, 600%, 0);
-            transform: translate3d(5%, 600%, 0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes snowflakes {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    /*opacity: 1;*/
+  }
+  50% {
+    /*opacity: 1;*/
+  }
+  to {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+    /*opacity: 0;*/
+  }
+}
+@keyframes snowflakes {
+  from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    /*opacity: 1;*/
+  }
+  50% {
+    /*opacity: 1;*/
+  }
+  to {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+    /*opacity: 0;*/
   }
 }
