@@ -12,6 +12,12 @@ body {
           animation: snow 10s linear infinite;
 }
 
+.snowflake i {
+  background: #FFF;
+  position: absolute;
+  width: 10px;
+}
+
 .foreground {
   opacity: 1;
   z-index: 300;
@@ -28,37 +34,68 @@ body {
 }
 
 .snowflake i:nth-child(1) {
-  position: absolute;
-  background: #FFF;
   height: 10px;
   width: 10px;
 }
 
 .snowflake i:nth-child(2) {
-  position: absolute;
   top: 10px;
   left: -10px;
-  background: #FFF;
   height: 10px;
-  width: 10px;
 }
 
 .snowflake i:nth-child(3) {
-  position: absolute;
   left: 10px;
   top: 10px;
-  background: #FFF;
   height: 10px;
-  width: 10px;
 }
 
 .snowflake i:nth-child(4) {
-  position: absolute;
   top: 20px;
-  background: #FFF;
   height: 10px;
-  width: 10px;
 }
+/*End of centre of snowflake*/
+
+.snowflake i:nth-child(5) {
+  left: 10px;
+  height: 25px;
+  top: -25px;
+}
+
+.snowflake i:nth-child(6) {
+  left: 20px;
+  height: 25px;
+  top: -35px;
+}
+
+.snowflake i:nth-child(7) {
+  left: 30px;
+  height: 25px;
+  top: -45px;
+}
+
+.snowflake i:nth-child(8) {
+  left: 20px;
+  height: 10px;
+  width: 25px;
+  top: 0px;
+}
+
+.snowflake i:nth-child(9) {
+  left: 30px;
+  height: 10px;
+  width: 25px;
+  top: -10px;
+}
+
+.snowflake i:nth-child(10) {
+  left: 40px;
+  height: 10px;
+  width: 25px;
+  top: -20px;
+}
+
+/*End of top right snowflake*/
 
 @-webkit-keyframes snow {
   0% {
