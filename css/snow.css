@@ -8,6 +8,8 @@ body {
   position: relative;
   margin: 140px 0 0 220px;
   z-index: 200;
+  -webkit-animation: snow 10s linear infinite;
+          animation: snow 10s linear infinite;
 }
 
 .snowflake i {
@@ -15,4 +17,26 @@ body {
   background: #FFF;
   height: 50px;
   width: 50px;
+}
+
+@-webkit-keyframes snow {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(5%, 600%, 0);
+            transform: translate3d(5%, 600%, 0);
+  }
+}
+
+@keyframes snow {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(5%, 600%, 0);
+            transform: translate3d(5%, 600%, 0);
+  }
 }
