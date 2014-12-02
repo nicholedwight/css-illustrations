@@ -90,7 +90,7 @@ $(document).ready(function (){
       else if (minute >= 3) {
         $('.five').addClass('active');
         $('.past').addClass('active');
-        ('.oclock').addClass('.active');
+        $('.oclock').addClass('.active');
         $('.' + hour.toString()).addClass('active');
       }
 

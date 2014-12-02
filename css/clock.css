@@ -1,5 +1,5 @@
 body {
-    background-color: #111;
+    background-color: #1abc9c;
 }
 
 #clock-container {
@@ -29,7 +29,7 @@ body {
 }
 
 .active {
-    color: #00CD9B;
+    color: #FFF;
     font-weight: 700;
-    text-shadow: 0 0 12px #00CD9B;
+    text-shadow: 0 0 12px #FFF;
 }
